@@ -1,5 +1,9 @@
 package PResoluciones;
 
+
+// @author: Jose Carlos Coronado Chable (Documentador)
+// @author:Alex Reyes (Coder)
+//@version: 24/05/2022
 /**
  * Class Resolucion
  */
@@ -8,6 +12,7 @@ public class Resolucion {
     //
     // Fields
     //
+    // Campos de tipo privado que tienen como variables estaticas largo y ancho que sirven para dar un tamaño a la pantalla 
     private double largo;
     private double ancho;
 
@@ -21,6 +26,7 @@ public class Resolucion {
      * @param ancho
      *
      */
+    //creamos el constructor resolucion que toma como parametros el largo y el ancho 
     public Resolucion(double largo, double ancho) {
         this.largo = largo;
         this.ancho = ancho;
@@ -33,7 +39,7 @@ public class Resolucion {
     // Accessor methods
     //
     /**
-     * Fija el valor de largo
+    //Fija el valor de largo
      *
      * @param newVar el nuevo valor de largo
      */
@@ -42,7 +48,7 @@ public class Resolucion {
     }
 
     /**
-     * Devuelve el valor de largo
+     // Devuelve el valor de largo
      *
      * @return el valor de largo
      */
@@ -71,4 +77,4 @@ public class Resolucion {
     //
     // Other methods
     
-}
+}//Cierre de la clase y del metodo
