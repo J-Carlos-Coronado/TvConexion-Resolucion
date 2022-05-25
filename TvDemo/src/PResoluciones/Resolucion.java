@@ -1,23 +1,27 @@
 package PResoluciones;
 
 /**
- * Class Resolucion
+ *En este apartado creamos la clase Resolucion que sirve para adaptar la pantalla
+  Class Resolucion
  */
 public class Resolucion {
 
     //
-    // Fields
+    // @author: Jose Carlos Coronado Chable (Documentador)
+    //@version: 24/05/202
+    //
     //
     private double largo;
     private double ancho;
 
     //
-    // Constructors
+    // Creacion del constructor Resolucion 
     //
     //Herrera improvement public Resolucion () { };
     /**
      *
-     * @param largo
+     // en este apartado tomamos como parametro el largo y ancho de la televison para que se pueda ajustar 
+     * @param largo 
      * @param ancho
      *
      */
@@ -28,7 +32,7 @@ public class Resolucion {
 
     //
     // Methods
-    //
+    //con este metodo podemos darle un tamaño largo a la pantalla
     //
     // Accessor methods
     //
@@ -68,7 +72,7 @@ public class Resolucion {
         return ancho;
     }
 
-    //
+    // cierre del metodo ancho  
     // Other methods
     //
-}
+}//Cierre de la clase
