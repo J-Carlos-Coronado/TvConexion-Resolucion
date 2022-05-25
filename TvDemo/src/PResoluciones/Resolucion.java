@@ -7,6 +7,7 @@ package PResoluciones;
 public class Resolucion {
 
     //
+    // @author: Alejandro Espinoza Aguilar 
     // @author: Jose Carlos Coronado Chable (Documentador)
     //@version: 24/05/202
     //
